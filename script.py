@@ -12,7 +12,7 @@ smtp.ehlo()
 smtp.starttls() 
 
 # Login with your email and password 
-smtp.login('ameykurade60@gmail.com', 'lyflscxwvnnizfsk') 
+smtp.login('ameykurade60@gmail.com', 'app-password') 
 
 def convert_markdown_to_html(markdown_text):
   """
