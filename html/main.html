@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Files via JavaScript API</title>
+</head>
+<body>
+    <h2>Upload Markdown and CSV Files</h2>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <label for="markdownFile">Markdown File:</label>
+        <input type="file" id="markdownFile" accept=".md"><br><br>
+
+        <label for="csvFile">CSV File:</label>
+        <input type="file" id="csvFile" accept=".csv"><br><br>
+
+        <button type="button" onclick="uploadFiles()">Upload Files</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
