@@ -88,6 +88,6 @@ for recipient in recipients:
   smtp.sendmail(from_addr="3dblends@gmail.com", 
                 to_addrs=recipient, msg=msg.as_string())
 
-# Finally, don't forget to close the connection 
+# close the connection 
 smtp.quit()
 
